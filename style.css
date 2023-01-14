@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: black;
+  color: white;
+  font-family: myFirstFont, MyFont_IE, Tahoma, Geneva, sans-serif;
+}
+ul{
+  list-style: none;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cover{
+  background-color: #1b1b1b;
+  width: 1048px;
+  height: 3081px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.login{
+  color: #A1A1A1;
+  font-size: 11px;
+  font-family:  Tahoma, Geneva, sans-serif;
+  display: flex;
+  padding-top: 10px;
+  justify-content: right;
+}
+#login-icon img{
+  width: 23px;
+  height: 21px;
+  margin-right: 7px;
+}
+#login-signup{
+  margin-right: 470px;
+  padding-top: 4px;
+}
+#menu-text:hover{
+  color: #ffc119;
+  transition: all .3s linear;
+  cursor: pointer;
+}
+#social{
+  padding-top: 3px;
+}
+.social-icon{
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 2px;
+}
+.social-icon img{
+  height: 17px;
+  margin-left: 4px;
+  padding-top: 3px;
+  cursor: pointer;
+}
+.nav{
+  display: grid;
+  grid-template-columns: 220px 1fr 300px;
+  padding-top: 12px;
+  padding-bottom: 35px;
+}
+.logo{
+  padding: 0 40px;
+}
+.nav-bar{
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+  padding-left: 17px;
+  font-size: 15px;
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+.nav-home{
+  color: #ffc119;
+  border-bottom: solid 2px #ffc119;
+  padding-bottom: 0;
+}
+.nav-text, .nav-home{
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 14px;
+  margin-right: 37px;
+  cursor: pointer;
+}
+.nav-text:hover{
+  color: #ffc119;
+  border-bottom: #ffc119 2px solid;
+}
+.search{
+  display: flex;
+  justify-content: right;
+  padding-top: 18px;
+}
+.search-bar{
+  width: 100%;
+  color: #ffc119;
+  background-color: transparent;
+  border: solid 1px #A1A1A1;
+  height: 30px;
+  padding-left: 10px;
+  border-right: none;
+}
+.search-bar:focus{
+  outline: none;
+}
+.search-btn{
+  height: 32px;
+  position: absolute;
+  background-color: transparent;
+  border-top: solid 1px #A1A1A1;
+  border-right: solid 1px #A1A1A1;
+  border-bottom: solid 1px #A1A1A1;
+  border-left: none;
+  cursor: pointer;
+}
+.search-btn img{
+  height: 20px;
+  padding-top: 5px;
+  padding-right: 7px;
+}

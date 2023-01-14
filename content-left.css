@@ -1,0 +1,132 @@
+.left{
+  width: 728px;
+}
+.main-top{
+  display: flex;
+  width: 100%;
+  background-color: #FFC119;
+  height: 38px;
+  justify-content: right;
+  align-items: center;
+}
+.main-text{
+  margin-left: 67px;
+  width: 100%;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 12.5px;
+  white-space: nowrap;
+  color: #252525;
+  padding: 0;
+}
+.main-text span{
+  margin-right: 7px;
+}
+#recent{
+  color: white;
+  cursor: pointer;
+}
+#content-nav:hover{
+  color: white;
+  transition: all .3s linear;
+  cursor: pointer;
+}
+.main-nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  width: 100%;
+}
+.page{
+  padding-bottom: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 13px;
+}
+.page li{
+  font-size: 12px;
+  margin: 2px;
+  padding: 3px 8px;
+  color: #252525;
+  cursor: pointer;
+}
+#page-one{
+  color: white;
+  background-color: #00a651;
+}
+.page li:hover{
+  color: white;
+  background-color: #00a651;
+  transition: all .3s linear;
+}
+.main{
+  width: 100%;
+  height: 1510px;
+  border: solid 2px gray;
+  margin-top: 15px;
+}
+.main-content{
+  height: 100%;
+  padding: 0 16px;
+  position: relative;
+}
+.items{
+  width: 100%;
+  height: 50px;
+  display: grid;
+  margin-top: 16px;
+  column-gap: 13px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 20px;
+}
+.img-content{
+  display: flex;
+  flex-direction: column;
+  height: 207px;
+  justify-content: end;
+}
+.sub{
+  position: absolute;
+  height: 33px;
+  z-index: 2;
+  width: 164px;
+  text-align: center;
+  background-image: -webkit-linear-gradient(rgba(222, 97, 29, 0),rgba(0, 0, 0, 0.451),rgba(0, 0, 0, 0.79));
+  cursor: pointer;
+}
+#sub-logo{
+  height: 32px;
+  object-fit: contain;
+}
+.item-content{
+  width: 164px;
+  height: 270px;
+}
+.image{
+  object-position: top;
+  object-fit: cover;
+  height: 207px;
+  width: 100%;
+  cursor: pointer;
+}
+.content-title{
+  height: 34px;
+  margin: 8px 0;
+  color: #FFC119;
+  cursor: pointer;
+}
+.content-title:hover{
+  color: white;
+  transition: all .3s linear;
+}
+.content-title, .content-episode{
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+.content-episode{
+  align-items: flex-end;
+}
