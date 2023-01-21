@@ -1,232 +1,1019 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Gogoanime Clone</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="content-left.css">
-    <link rel="stylesheet" href="content-right.css">
-  </head>
-  <body>
+
+<head>
+  <title>Gogoanime Clone</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="content-left.css">
+  <link rel="stylesheet" href="content-right.css">
+</head>
+
+<body>
   <div class="wrapper">
-  <div class="cover">
-    <div class="menu-top">
-      <div class="login">
-      <div id="login-icon"> <img src="images/login.png"></div>
-      <div id="login-signup"> <span id="menu-text">Login</span> <span id="menu-text">|</span> <span id="menu-text">Sign up</span> </div>
-      <div id="social"><span id="menu-text">Request</span><span style="color: #FFC119;"> | </span><span id="menu-text">Contact us</span></div>
-      <div class="social-icon">
-        <img src="images/telegram.png">
-        <img src="images/discord.png">
-        <img src="images/facebook.png">
-        <img src="images/reddit.png">
-        <img src="images/twitter.png">
+    <div class="cover">
+      <div class="menu-top">
+        <div class="login">
+          <div id="login-icon"> <img src="images/login.png"></div>
+          <div id="login-signup"> <span id="menu-text">Login</span> <span id="menu-text">|</span> <span
+              id="menu-text">Sign up</span> </div>
+          <div id="social"><span id="menu-text">Request</span><span style="color: #FFC119;"> | </span><span
+              id="menu-text">Contact us</span></div>
+          <div class="social-icon">
+            <img src="images/telegram.png">
+            <img src="images/discord.png">
+            <img src="images/facebook.png">
+            <img src="images/reddit.png">
+            <img src="images/twitter.png">
+          </div>
+        </div>
       </div>
+
+      <section class="nav">
+        <div class="logo"><img src="images/logo.png"></div>
+        <ul class="nav-bar">
+          <li class="nav-home">HOME</li>
+          <li class="nav-text">ANIME LIST</li>
+          <li class="nav-text">NEW SEASON</li>
+          <li class="nav-text">MOVIES</li>
+          <li class="nav-text">POPULAR</li>
+        </ul>
+        <div class="search"><input class="search-bar" type="text" placeholder="search">
+          <button class="search-btn">
+            <img src="images/search-icon.png">
+          </button>
+        </div>
+      </section>
+
+      <div class="content-container">
+
+        <section class="left">
+          <div class="main">
+            <div class="main-top">
+              <div class="main-nav">
+                <div class="main-text">
+                  <span class="recent">RECENT RELEASE</span>
+                  <span id="span">|</span> <span id="content-nav">DUB</span> <span id="span">|</span> <span
+                    id="content-nav">CHINESE</span>
+                </div>
+                <div>
+                  <ul class="page">
+                    <li id="page-one">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="main-content">
+              <div class="items">
+                <div class="item-content">
+                  <div class="img-content">
+                    <img class="image" src="images/item1.png">
+                    <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
+                  </div>
+                  <div class="content-title">Shadowverse Flame</div>
+                  <div class="content-episode">Episode 40</div>
+                </div>
+                <div id="item-content">
+                  <div class="img-content">
+                    <img class="image" src="images/item2.png">
+                    <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
+                  </div>
+                  <div class="content-title">Cardfight!! Vanguard: Will+Dress Season 2</div>
+                  <div class="content-episode">Episode 1</div>
+                </div>
+                <div id="item-content">
+                  <div class="img-content">
+                    <img class="image" src="images/item3.png">
+                    <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
+                  </div>
+                  <div class="content-title">Tsundere Akuyaku Reijou Liselotte to Jikkyou no</div>
+                  <div class="content-episode">Episode 2</div>
+                </div>
+                <div id="item-content">
+                  <div class="img-content">
+                    <img class="image" src="images/item4.png">
+                    <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
+                  </div>
+                  <div class="content-title">Buddy Daddies</div>
+                  <div class="content-episode">Episode 2</div>
+                </div>
+                <div id="item-content">
+                  <div class="img-content">
+                    <img class="image" src="images/item5.png">
+                    <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
+                  </div>
+                  <div class="content-title">Ars no Kyojuu</div>
+                  <div class="content-episode">Episode 2</div>
+                </div>
+                <div id="item-content">
+                  <div class="img-content">
+                    <img class="image" src="images/item6.png">
+                    <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
+                  </div>
+                  <div class="content-title">Shin Shinka no Mi: Shiranai Uchi ni Kachigumi Jinsei</div>
+                  <div class="content-episode">Episode 1</div>
+                </div>
+                <div id="item-content">
+                  <div class="img-content">
+                    <img class="image" src="images/item7.png">
+                    <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
+                  </div>
+                  <div class="content-title">Lupin Zero</div>
+                  <div class="content-episode">Episode 6</div>
+                </div>
+                <div id="item-content">
+                  <div class="img-content">
+                    <img class="image" src="images/item8.png">
+                    <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
+                  </div>
+                  <div class="content-title">The Legend of Heroes: Sen no Kiseki - Northern War</div>
+                  <div class="content-episode">Episode 2</div>
+                </div>
+                <div id="item-content">
+                  <div class="img-content">
+                    <img class="image" src="images/item9.png">
+                    <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
+                  </div>
+                  <div class="content-title">Nijiyon Animation</div>
+                  <div class="content-episode">Episode 2</div>
+                </div>
+                <div id="item-content">
+                  <div class="img-content">
+                    <img class="image" src="images/item10.png">
+                    <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
+                  </div>
+                  <div class="content-title">Li Shi Zhentan Shiwusuo: A Day in Lungmen</div>
+                  <div class="content-episode">Episode 4</div>
+                </div>
+                <div id="item-content">
+                  <div class="img-content">
+                    <img class="image" src="images/item11.png">
+                    <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
+                  </div>
+                  <div class="content-title">Isekai Nonbiri Nouka</div>
+                  <div class="content-episode">Episode 2</div>
+                </div>
+                <div id="item-content">
+                  <div class="img-content">
+                    <img class="image" src="images/item12.png">
+                    <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
+                  </div>
+                  <div class="content-title">Sugar Apple Fairy Tale</div>
+                  <div class="content-episode">Episode 2</div>
+                </div>
+                <div id="item-content">
+                  <div class="img-content">
+                    <img class="image" src="images/item13.png">
+                    <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
+                  </div>
+                  <div class="content-title">Dr. Slump: Arale-chan</div>
+                  <div class="content-episode">Episode 128</div>
+                </div>
+                <div id="item-content">
+                  <div class="img-content">
+                    <img class="image" src="images/item14.png">
+                    <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
+                  </div>
+                  <div class="content-title">Sekai no Owari ni Shiba Inu to</div>
+                  <div class="content-episode">Episode 65</div>
+                </div>
+                <div id="item-content">
+                  <div class="img-content">
+                    <img class="image" src="images/item15.png">
+                    <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
+                  </div>
+                  <div class="content-title">Ninjala</div>
+                  <div class="content-episode">Episode 52</div>
+                </div>
+                <div id="item-content">
+                  <div class="img-content">
+                    <img class="image" src="images/item16.png">
+                    <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
+                  </div>
+                  <div class="content-title">Inu ni Nattara Suki na Hito ni Hirowareta. (Uncensored)</div>
+                  <div class="content-episode">Episode 2</div>
+                </div>
+                <div id="item-content">
+                  <div class="img-content">
+                    <img class="image" src="images/item17.png">
+                    <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
+                  </div>
+                  <div class="content-title">Initial D Battle Stage 2</div>
+                  <div class="content-episode">Episode 1</div>
+                </div>
+                <div id="item-content">
+                  <div class="img-content">
+                    <img class="image" src="images/item18.png">
+                    <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
+                  </div>
+                  <div class="content-title">Urusei Yatsura (2022)</div>
+                  <div class="content-episode">Episode 13</div>
+                </div>
+                <div id="item-content">
+                  <div class="img-content">
+                    <img class="image" src="images/item19.png">
+                    <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
+                  </div>
+                  <div class="content-title">Hyouken no Majutsushi ga Sekai wo Suberu</div>
+                  <div class="content-episode">Episode 2</div>
+                </div>
+                <div id="item-content">
+                  <div class="img-content">
+                    <img class="image" src="images/item20.png">
+                    <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
+                  </div>
+                  <div class="content-title">Oniichan wa Oshimai! (Uncensored)</div>
+                  <div class="content-episode">Episode 2</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="popular-container">
+            <div class="popular-nav">
+              <div class="main-nav">
+                <div class="main-text">
+                  <span class="popular-update">POPULAR ONGOING UPDATE</span>
+                </div>
+                <div>
+                  <ul class="page">
+                    <li id="page-one">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="popular">
+              <ul>
+                <li>
+                  <div><img src="images/popu1.png"></div>
+                  <div class="popular-description">
+                    <div class="popular-title">Vinland Saga Season 2</div>
+                    <div class="popular-genre">Genres: <span>Action, </span><span>Adventure, </span><span>Drama,
+                      </span><span>Gore, </span><span>Seinen</span></div>
+                    <div class="popular-episode">Latest: <span>Episode 2</span></div>
+                  </div>
+                </li>
+                <li>
+                  <div><img src="images/popu2.png"></div>
+                  <div class="popular-description">
+                    <div class="popular-title">Tokyo Revengers: Seiya Kessen-hen</div>
+                    <div class="popular-genre">Genres: <span>Action, </span><span>Delinquents, </span><span>Drama,
+                      </span><span>Shounen, </span><span>Supernatural, </span></div>
+                    <div class="popular-episode">Latest: <span>Episode 2</span></div>
+                  </div>
+                </li>
+                <li>
+                  <div><img src="images/popu3.png"></div>
+                  <div class="popular-description">
+                    <div class="popular-title">Kyokou Suiri Season 2</div>
+                    <div class="popular-genre">Genres: <span>Mystery, </span><span>Mythology, </span><span>Romance,
+                      </span><span>Shounen, </span><span>Supernatural </span></div>
+                    <div class="popular-episode">Latest: <span>Episode 2</span></div>
+                  </div>
+                </li>
+                <li>
+                  <div><img src="images/popu4.png"></div>
+                  <div class="popular-description">
+                    <div class="popular-title">Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei
+                      shite Shison-tachi no Gakkou e Kayou II</div>
+                    <div class="popular-genre">Genres: <span>Action, </span><span>Fantasy, </span><span>Mythology,
+                      </span><span>Reincarnation, </span><span>School </span></div>
+                    <div class="popular-episode">Latest: <span>Episode 2</span></div>
+                  </div>
+                </li>
+                <li>
+                  <div><img src="images/popu5.png"></div>
+                  <div class="popular-description">
+                    <div class="popular-title">Ijiranaide, Nagatoro-san 2nd Attack</div>
+                    <div class="popular-genre">Genres: <span>Comedy, </span><span>Romantic </span><span>Subtext,
+                      </span><span>School </span></div>
+                    <div class="popular-episode">Latest: <span>Episode 3</span></div>
+                  </div>
+                </li>
+                <li>
+                  <div><img src="images/popu6.png"></div>
+                  <div class="popular-description">
+                    <div class="popular-title">Tomo-chan wa Onnanoko!</div>
+                    <div class="popular-genre">Genres: <span>Comedy, </span><span>Romance, </span><span>School </span>
+                    </div>
+                    <div class="popular-episode">Latest: <span>Episode 3</span></div>
+                  </div>
+                </li>
+                <li>
+                  <div><img src="images/popu7.png"></div>
+                  <div class="popular-description">
+                    <div class="popular-title">Spy Kyoushitsu</div>
+                    <div class="popular-genre">Genres: <span>Action, </span><span>Comedy, </span><span>Harem,
+                      </span><span>Mystery, </span><span>Romance </span></div>
+                    <div class="popular-episode">Latest: <span>Episode 2</span></div>
+                  </div>
+                </li>
+                <li>
+                  <div><img src="images/popu8.png"></div>
+                  <div class="popular-description">
+                    <div class="popular-title">NieR:Automata Ver1.1a</div>
+                    <div class="popular-genre">Genres: <span>Action, </span><span>Fantasy, </span><span>Sci-Fi </span>
+                    </div>
+                    <div class="popular-episode">Latest: <span>Episode 2</span></div>
+                  </div>
+                </li>
+                <li>
+                  <div><img src="images/popu9.png"></div>
+                  <div class="popular-description">
+                    <div class="popular-title">Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu. 2
+                    </div>
+                    <div class="popular-genre">Genres: <span>Action, </span><span>Adventure, </span><span>Comedy,
+                      </span><span>Fantasy, </span><span>Sci-Fi </span></div>
+                    <div class="popular-episode">Latest: <span>Episode 2</span></div>
+                  </div>
+                </li>
+                <li>
+                  <div><img src="images/popu10.png"></div>
+                  <div class="popular-description">
+                    <div class="popular-title">Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Fuka Shou -
+                      Yakusai-hen</div>
+                    <div class="popular-genre">Genres: <span>Action, </span><span>Adventure, </span><span>Fantasy
+                      </span></div>
+                    <div class="popular-episode">Latest: <span>Episode 2</span></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="recently-container">
+            <div class="main-nav-right">
+              <div class="main-text-right"><span class="ongoing">RECENTLY ADDED SERIES</span></div>
+            </div>
+
+            <div class="recently">
+              <div class="recently-content">
+                <div class="recently-content">
+                  <ul>
+                    <li>Fate/Grand Order: Fujimaru Ritsuka wa Wakaranai</li>
+                    <li>Hikari no Ou</li>
+                    <li>Ooyukiumi no Kaina</li>
+                    <li>Tondemo Skill de Isekai Hourou Meshi</li>
+                    <li>Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu. 2</li>
+                    <li>Kubo-san wa Mob wo Yurusanai</li>
+                    <li>Eiyuuou, Bu wo Kiwameru Tame Tenseisu: Soshite, Sekai Saikyou no Minarai Kishi♀ (TV)</li>
+                    <li>Mononogatari</li>
+                    <li>Mou Ippon!</li>
+                    <li>NieR:Automata Ver1.1a</li>
+                    <li>Ijiranaide, Nagatoro-san 2nd Attack</li>
+                    <li>Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou II</li>
+                    <li>Nokemono-tachi no Yoru</li>
+                    <li>Ars no Kyojuu</li>
+                    <li>Inu ni Nattara Suki na Hito ni Hirowareta.</li>
+                    <li>Kaiko sareta Ankoku Heishi (30-dai) no Slow na Second Life</li>
+                    <li>Saikyou Onmyouji no Isekai Tenseiki: Geboku no Youkai-domo ni Kurabete Monster ga Yowasugirunda ga</li>
+                    <li>The Legend of Heroes: Sen no Kiseki - Northern War</li>
+                    <li>Isekai Nonbiri Nouka</li>
+                    <li>Hyouken no Majutsushi ga Sekai wo Suberu</li>
+                    <li>Spy Kyoushitsu</li>
+                    <li>Tomo-chan wa Onnanoko!</li>
+                    <li>Oniichan wa Oshimai!</li>
+                    <li>Koori Zokusei Danshi to Cool na Douryou Joshi</li>
+                    <li>Ayakashi Triangle</li>
+                    <li>Buddy Daddies</li>
+                    <li>Rougo ni Sonaete Isekai de 8-manmai no Kinka wo Tamemasu</li>
+                    <li>Vinland Saga Season 2</li>
+                    <li>Bungou Stray Dogs 4th Season</li>
+                    <li>Tokyo Revengers: Seiya Kessen-hen</li>
+                    <li>Benriya Saitou-san, Isekai ni Iku</li>
+                    <li>D4DJ All Mix</li>
+                    <li>Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken</li>
+                    <li>Kakkou no Iinazuke</li>
+                    <li>86 Part 2</li>
+                    <li>Isekai Shokudou 2</li>
+                    <li>Tensai Ouji no Akaji Kokka Saisei Jutsu</li>
+                    <li>Boku to Roboko</li>
+                    <li>Cardfight!! Vanguard: Will+Dress Season 2</li>
+                    <li>Nanatsu no Taizai: Ensa no Edinburgh</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section class="right">
+          <div class="headnav-right"></div>
+          <div class="main-right">
+            <div class="main-nav-right">
+              <div class="main-text-right">
+                <span class="recent">DAY</span>
+                <span id="span">|</span> <span id="content-nav">WEEK</span> <span id="span">|</span> <span
+                  id="content-nav">MONTH</span>
+              </div>
+            </div>
+            <div class="movies-show-container">
+              <ul class="movies-show">
+                <li class="movies-show-content">
+                  <div class="number">1.</div>
+                  <div>
+                    <p class="title">Ningen Fushin no Boukensha-tachi ga Sekai wo Sukuu you desu</p>
+                    <p class="episode">Episode: 3</p>
+                  </div>
+                </li>
+                <li class="movies-show-content">
+                  <div class="number">2.</div>
+                  <div>
+                    <p class="title">Tondemo Skill de Isekai Hourou Meshi</p>
+                    <p class="episode">Episode: 2</p>
+                  </div>
+                </li>
+                <li class="movies-show-content">
+                  <div class="number">3.</div>
+                  <div>
+                    <p class="title">Kubo-san wa Mob wo Yurusanai</p>
+                    <p class="episode">Episode: 2</p>
+                  </div>
+                </li>
+                <li class="movies-show-content">
+                  <div class="number">4.</div>
+                  <div>
+                    <p class="title">Koori Zokusei Danshi to Cool na Douryou Joshi</p>
+                    <p class="episode">Episode: 3</p>
+                  </div>
+                </li>
+                <li class="movies-show-content">
+                  <div class="number">5.</div>
+                  <div>
+                    <p class="title">Vinland Saga Season 2</p>
+                    <p class="episode">Episode: 2</p>
+                  </div>
+                </li>
+                <li class="movies-show-content">
+                  <div class="number">6.</div>
+                  <div>
+                    <p class="title">Eiyuuou, Bu wo Kiwameru Tame Tenseisu: Soshite, Sekai Saikyou no Minarai Kishi♀
+                      (TV)</p>
+                    <p class="episode">Episode: 2</p>
+                  </div>
+                </li>
+                <li class="movies-show-content">
+                  <div class="number">7.</div>
+                  <div>
+                    <p class="title">Renai Flops (Uncensored)</p>
+                    <p class="episode">Episode: 12</p>
+                  </div>
+                </li>
+                <li class="movies-show-content">
+                  <div class="number">8.</div>
+                  <div>
+                    <p class="title">Boku no Hero Academia 6th Season</p>
+                    <p class="episode">Episode: 15</p>
+                  </div>
+                </li>
+                <li class="movies-show-content">
+                  <div class="number">9.</div>
+                  <div>
+                    <p class="title">One Piece</p>
+                    <p class="episode">Episode: 1047</p>
+                  </div>
+                </li>
+                <li class="movies-show-content">
+                  <div class="number">10.</div>
+                  <div>
+                    <p class="title">Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite
+                      Shison-tachi no Gakkou e Kayou II</p>
+                    <p class="episode">Episode: 2</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="series-container">
+            <div class="main-nav-right">
+              <div class="main-text-right"><span class="ongoing">ONGOING SERIES</span></div>
+            </div>
+            <div class="series">
+              <ul>
+                <li>100,000 Levels of Body Refining : All the dogs I raise are the Emperor</li>
+                <li>6HP (Six Hearts Princess)</li>
+                <li>A Master Of Pints</li>
+                <li>A playboy of exorcist</li>
+                <li>Against the Sky Supreme</li>
+                <li>Akiba Meido Sensou (Dub)</li>
+                <li>Almighty Master</li>
+                <li>Ancient Martial Artist in the City 2nd Season</li>
+                <li>AOTU Shijie 4</li>
+                <li>Araiguma Rascal</li>
+                <li>Ars no Kyojuu</li>
+                <li>Ayakashi Triangle</li>
+                <li>Back To Rule Again Season 2</li>
+                <li>Bai Lian Cheng Shen</li>
+                <li>Bai Yao Pu 3rd Season</li>
+                <li>Bakugan: Evolutions (Dub)</li>
+                <li>Battle God Tripod</li>
+                <li>Become the Castellan in Another World</li>
+                <li>Bei Kun Bai Wan Nian: Dizi Bianbu Zhu Tian Wan Jie</li>
+                <li>Benriya Saitou-san, Isekai ni Iku</li>
+                <li>Berserk: Ougon Jidai-hen - Memorial Edition (Dub)</li>
+                <li>Bing Huo Mo Chu</li>
+                <li>Bittersweet Love</li>
+                <li>Bleach: Sennen Kessen-hen (Dub)</li>
+                <li>Blue Lock</li>
+                <li>Blue Lock (Dub)</li>
+                <li>Boku no Hero Academia 6th Season</li>
+                <li>Boku no Hero Academia 6th Season (Dub)</li>
+                <li>Boku to Roboko</li>
+                <li>Boruto: Naruto Next Generations</li>
+                <li>Boruto: Naruto Next Generations (Dub)</li>
+                <li>Buddy Daddies</li>
+                <li>Budo Xianzun</li>
+                <li>Bungou Stray Dogs 4th Season</li>
+                <li>C Danchi</li>
+                <li>Cap Kakumei Bottleman DX</li>
+                <li>Cap Kakumei Bottleman DX Side Story</li>
+                <li>Cardfight!! Vanguard: Will+Dress Season 2</li>
+                <li>Cardfight!! Vanguard: Zoku Koukousei-hen (Dub)</li>
+                <li>Chainsaw Man (Dub)</li>
+                <li>Changye Kaita Zhe</li>
+                <li>Chi Yan Jinyiwei</li>
+                <li>Chiikawa</li>
+                <li>Chingou Muchabee</li>
+                <li>Conspiracy of Love</li>
+                <li>Cool Doji Danshi</li>
+                <li>Crayon Shin Chan</li>
+                <li>Crayon Shin-chan (Dub)</li>
+                <li>Crazy Queen Of Magic Kitchen</li>
+                <li>Crooked God Of War (2022)</li>
+                <li>Cultivating The Supreme Dantian</li>
+                <li>D4DJ All Mix</li>
+                <li>Da Li Si Rizhi 2nd Season</li>
+                <li>Dan God</li>
+                <li>Deification of Spring and Autumn Period</li>
+                <li>Delicious Party♡Precure</li>
+                <li>Detective Conan</li>
+                <li>Digimon Ghost Game</li>
+                <li>Dokidoki! Precure (Dub)</li>
+                <li>Doomsday Super System</li>
+                <li>Dosukoi Sushi Zumou</li>
+                <li>Douluo Dalu 2nd Season</li>
+                <li>Dubu Xiaoyao</li>
+                <li>Duel Masters King! (2021)</li>
+                <li>Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Fuka Shou - Yakusai-hen</li>
+                <li>Eiyuuou, Bu wo Kiwameru Tame Tenseisu: Soshite, Sekai Saikyou no Minarai Kishi♀ (TV)</li>
+                <li>ELF Academy</li>
+                <li>Emperor Lingwu</li>
+                <li>Eternal Boys</li>
+                <li>Fake Identity 2</li>
+                <li>Fangyu Quan Kai</li>
+                <li>Fanren Xiu Xian Chuan: Zai Bie Tian Nan</li>
+                <li>Fate/Grand Carnival</li>
+                <li>Fate/Grand Carnival (Dub)</li>
+                <li>Fei Ren Zai 4th Season</li>
+                <li>Feng Qi Luoyang Zhi Shen Ji Shaonian</li>
+                <li>Fengzi Wuyu: Xian Luo Pian</li>
+                <li>First Class Taker</li>
+                <li>Flaglia: Natsuyasumi no Monogatari</li>
+                <li>Flowering Heart 2</li>
+                <li>Fumetsu no Anata e 2nd Season</li>
+                <li>Fumetsu no Anata e 2nd Season (Dub)</li>
+                <li>Fushigi Dagashiya: Zenitendou</li>
+                <li>Futian Sheng Zhu</li>
+                <li>Fuufu Ijou, Koibito Miman. (Dub)</li>
+                <li>Gaina Tamager</li>
+                <li>Gal-gaku.: Hijiri Girls Square Gakuin</li>
+                <li>Gekitou! Crush Gear Turbo</li>
+                <li>Get Ride! AMDriver</li>
+                <li>Go-Q-Choji Ikkiman</li>
+                <li>God Of War</li>
+                <li>Golden Kamuy 4th Season</li>
+                <li>Guan Miao Shenmeshi</li>
+                <li>Gunma-chan</li>
+                <li>Gyakkyou Burai Kaiji: Ultimate Survivor (Dub)</li>
+                <li>Haai Step Jun</li>
+                <li>Happy Sugar Life (Dub)</li>
+                <li>High Card</li>
+                <li>High School Mystery: Gakuen Nanafushigi</li>
+                <li>Hikari no Ou</li>
+                <li>Holo no Graffiti</li>
+                <li>Hong Huang</li>
+                <li>Hori-san to Miyamura-kun</li>
+                <li>Hoshi no Samidare (Dub)</li>
+                <li>Hua Jiang Hu: Bu Liang Ren V</li>
+                <li>Hua Jianghu Zhi Gui Yexing</li>
+                <li>Hua Jianghu Zhi Huan Shi Men Sheng 2nd Season</li>
+                <li>Huang Yan</li>
+                <li>Huangli Shi</li>
+                <li>Hyouken no Majutsushi ga Sekai wo Suberu</li>
+                <li>I Am His First Love</li>
+                <li>I AM Straight Z</li>
+                <li>I Can See The Success Rate S4</li>
+                <li>I Got You (2022)</li>
+                <li>I Inherited A Sect</li>
+                <li>I Return From The Heavens</li>
+                <li>I was Stuck on the Same Day for One Hundred Thousand Years 2</li>
+                <li>I Was Stuck On The Same Day For One Hundred Thousand Years 3</li>
+                <li>Idol Land PriPara</li>
+                <li>IDOLiSH7: Third Beat! Part 2</li>
+                <li>Ijiranaide, Nagatoro-san 2nd Attack</li>
+                <li>Inu ni Nattara Suki na Hito ni Hirowareta.</li>
+                <li>Inu ni Nattara Suki na Hito ni Hirowareta. (Uncensored)</li>
+                <li>Isekai Nonbiri Nouka</li>
+                <li>Isekai Ojisan</li>
+                <li>It All Starts With Being Reborn 1 Thousand Times</li>
+                <li>Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu. 2</li>
+                <li>Jian Wang 3: Xia Gan Yi Dan Shen Jianxin 2nd Season</li>
+                <li>Jian Wang 3: Xia Gan Yi Dan Shen Jianxin 3rd Season</li>
+                <li>Jian Xian Zai Ci</li>
+                <li>Jian Yu Yuanzheng - Insomnia De Naxie Shier (Dub)</li>
+                <li>Jidao Long Shen</li>
+                <li>Jing Cui Xian Zun Part 2</li>
+                <li>Jing: Shuang Cheng 2nd Season</li>
+                <li>Jiu Tian Xuan Di Jue 3</li>
+                <li>Ju Bing Chang Cheng Zhuan (Dub)</li>
+                <li>Jue Ding</li>
+                <li>Juedai Shuang Jiao</li>
+                <li>Kage no Jitsuryokusha ni Naritakute!</li>
+                <li>Kage no Jitsuryokusha ni Naritakute! (Dub)</li>
+                <li>Kagejitsu!</li>
+                <li>Kaibutsu-kun (1980)</li>
+                <li>Kaiko sareta Ankoku Heishi (30-dai) no Slow na Second Life</li>
+                <li>Kami-tachi ni Hirowareta Otoko 2nd Season</li>
+                <li>KanColle: Itsuka Ano Umi de</li>
+                <li>Kao Ni La Zhanshen Xitong</li>
+                <li>Koori Zokusei Danshi to Cool na Douryou Joshi</li>
+                <li>Kouchuu Ouja Mushiking: Mori no Tami no Densetsu</li>
+                <li>Koukyuu no Karasu (Dub)</li>
+                <li>Kouya no Kotobuki Hikoutai Gaiden: Oozora no Harukaze Hikoutai</li>
+                <li>Kubo-san wa Mob wo Yurusanai</li>
+                <li>Kyokou Suiri Season 2</li>
+                <li>Kyuuketsuki Sugu Shinu 2nd Season</li>
+                <li>Legends of Dawn: The Sacred Stone</li>
+                <li>Li Ba Shanhe Xi Zi Tang</li>
+                <li>Li Shi Zhentan Shiwusuo: A Day in Lungmen</li>
+                <li>Liang Bu Yi 2nd Season</li>
+                <li>Lianqi Lianle 3000 Nian</li>
+                <li>Ling Tian Divine Emperor</li>
+                <li>Little Bell and Ami’s Love Story</li>
+                <li>Liu Xing Huan Jian</li>
+                <li>Long Zu</li>
+                <li>Lupin III (Dub)</li>
+                <li>Magical Suite Prism Nana</li>
+                <li>Mahou no Angel Sweet Mint</li>
+                <li>Mahoutsukai no Yome: Nishi no Shounen to Seiran no Kishi (Dub)</li>
+                <li>Mairimashita! Iruma-kun 3rd Season</li>
+                <li>Mairimashita! Iruma-kun 3rd Season (Dub)</li>
+                <li>Majutsushi Orphen Hagure Tabi: Urbanrama-hen</li>
+                <li>Maoling Xiangce</li>
+                <li>Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou II</li>
+                <li>Marriage addiction</li>
+                <li>Martial Inverse</li>
+                <li>Mazica Party</li>
+                <li>Megaton-kyuu Musashi 2nd Season</li>
+                <li>Meitantei Conan: Hannin no Hanzawa-san</li>
+                <li>Mewkledreamy Mix!</li>
+                <li>MILGЯAM</li>
+                <li>Millenniums Of Warring States</li>
+                <li>Mini Van Large</li>
+                <li>Mo You Ji</li>
+                <li>Mononogatari</li>
+                <li>Motto! Majime ni Fumajime Kaiketsu Zorori 3rd Season</li>
+                <li>Mou Ippon!</li>
+                <li>Nanatsu no Taizai: Ensa no Edinburgh</li>
+                <li>Nanatsu no Taizai: Ensa no Edinburgh (Dub)</li>
+                <li>Ni Yian Jian Shen</li>
+                <li>Ni Zhenshi Ge Tiancai</li>
+                <li>NieR:Automata Ver1.1a</li>
+                <li>Nijiyon Animation</li>
+                <li>Nine Heavens Emperor God Season 3</li>
+                <li>Ningen Fushin no Boukensha-tachi ga Sekai wo Sukuu you desu</li>
+                <li>Nokemono-tachi no Yoru</li>
+                <li>Nuwa Chengzhang Riji</li>
+                <li>Obake Zukan</li>
+                <li>Obey Me! Season 2</li>
+                <li>Okashi na Sabaku no Suna to Manu</li>
+                <li>One Piece</li>
+                <li>One Piece (Dub)</li>
+                <li>Onigiri ni Naritai Cogimyun</li>
+                <li>Oniichan wa Oshimai!</li>
+                <li>Oniichan wa Oshimai! (Uncensored)</li>
+                <li>Ooyukiumi no Kaina</li>
+                <li>Ore, Tsushima</li>
+                <li>Orient: Awajishima Gekitou-hen (Dub)</li>
+                <li>Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken</li>
+                <li>Peerless Martial Spirit</li>
+                <li>Pokemon (2019) (Dub)</li>
+                <li>Pokemon: Mezase Pokemon Master</li>
+                <li>Poketoon</li>
+                <li>Pui Pui Molcar: Driving School</li>
+                <li>Punirunes</li>
+                <li>Pururun! Shizuku-chan</li>
+                <li>Qi Jie Diyi Xian</li>
+                <li>Qian Cong Shou</li>
+                <li>Qin Shi Ming Yue : Canghai Hengliu</li>
+                <li>Rebirth (Meta Morphosis)</li>
+                <li>Rebirth as The Great Celestial</li>
+                <li>Rebirth Of The Emperor</li>
+                <li>Rebirth Yor 80,000 Years</li>
+                <li>Reiwa no Di Gi Charat</li>
+                <li>Renjian Zui Deyi</li>
+                <li>Renmei Kuugun Koukuu Mahou Ongakutai Luminous Witches</li>
+                <li>Revenger</li>
+                <li>Rich Player 3</li>
+                <li>Rougo ni Sonaete Isekai de 8-manmai no Kinka wo Tamemasu</li>
+                <li>Saikyou Onmyouji no Isekai Tenseiki: Geboku no Youkai-domo ni Kurabete Monster ga Yowasugirunda ga</li>
+                <li>Sakkai Eightraid</li>
+                <li>San Cun Renjian</li>
+                <li>San Ti</li>
+                <li>Sekai no Owari ni Shiba Inu to</li>
+                <li>Shachiku-san wa Youjo Yuurei ni Iyasaretai.</li>
+                <li>Shadowverse Flame</li>
+                <li>Shadowverse Flame Special</li>
+                <li>Shaman King Funbari Onsen Prosperity Tale</li>
+                <li>Shan Hai Juelun</li>
+                <li>Shaonian Baima Zui Chunfeng</li>
+                <li>Shen Ji Long Wei</li>
+                <li>Shen Lan Qi Yu Wushuang Zhu</li>
+                <li>Shen Mu</li>
+                <li>Shen Yin Wangzuo</li>
+                <li>Sheng Xu</li>
+                <li>Sheng Xu Season 2</li>
+                <li>Shi Shaoxia Gunjue Hao Gudan</li>
+                <li>Shiguang Zhaoxiangguan de Richang</li>
+                <li>Shikong Zhi Xi</li>
+                <li>Shin Shinka no Mi: Shiranai Uchi ni Kachigumi Jinsei</li>
+                <li>Shine Post</li>
+                <li>Shishang Zui Qiang Nan Zhujiao</li>
+                <li>Shouji Li de Huanxiong Xiaozhen 2nd Season</li>
+                <li>Shouxi Yu Ling Shi 2nd Season</li>
+                <li>Shura Sword Sovereign</li>
+                <li>Shushan Qi Xian Lu</li>
+                <li>Si Hai Jing Qi 2nd Season</li>
+                <li>Si Wu Xie</li>
+                <li>Sore, Sunawachi Sketch.</li>
+                <li>Spy Kyoushitsu</li>
+                <li>Spy x Family Part 2 (Dub)</li>
+                <li>Stars*Collection!</li>
+                <li>Start Reborn A Thousand Time 2th Season</li>
+                <li>Sugar Apple Fairy Tale</li>
+                <li>Super baby is coming: Mommy,where's my daddy?</li>
+                <li>Super Dragon Ball Heroes Ultra God Mission</li>
+                <li>Super Psycho Love 2nd Season</li>
+                <li>Super Seminaries</li>
+                <li>Supreme Godly System</li>
+                <li>Tata's Rainbow Brainstorm 2</li>
+                <li>Technoroid: Overmind</li>
+                <li>Ten Emperors Are My Disciples</li>
+                <li>Tennis no Ouji-sama (Dub)</li>
+                <li>Tensei Oujo to Tensai Reijou no Mahou Kakumei</li>
+                <li>Tensei shitara Ken Deshita (Dub)</li>
+                <li>The Apprentices Are All Bosses</li>
+                <li>The Enraptured Prince (2022)</li>
+                <li>The Eternal God King</li>
+                <li>The King Of Bugs</li>
+                <li>The Last Hero</li>
+                <li>The Last Human</li>
+                <li>The Legend of Heroes: Sen no Kiseki - Northern War</li>
+                <li>The Legend of Sword Domain 2nd Season</li>
+                <li>The Strongest Heavenly Venerate in the Happy City</li>
+                <li>The Strongest Magic Doctor Mixed City</li>
+                <li>The Strongest Seal Master</li>
+                <li>The Supreme Martial Path</li>
+                <li>Tian Guan Ci Fu (Dub)</li>
+                <li>Time Prisoner 2nd Season</li>
+                <li>Tokyo Revengers: Seiya Kessen-hen</li>
+                <li>Tomo-chan wa Onnanoko!</li>
+                <li>Tomo-chan wa Onnanoko! (Dub)</li>
+                <li>Tondemo Skill de Isekai Hourou Meshi</li>
+                <li>Tottemo! Luckyman</li>
+                <li>Touhou Gensou Mangekyou: The Memories of Phantasm</li>
+                <li>Trapped with the CEO</li>
+                <li>Trigun Stampede</li>
+                <li>Tsundere Akuyaku Reijou Liselotte to Jikkyou no Endou-kun to Kaisetsu no Kobayashi-san</li>
+                <li>Tsurune: Tsunagari no Issha</li>
+                <li>Tunshi Xingkong 2nd Season</li>
+                <li>TV Yarou Nanaana: Kaibutsu Kraken wo Oe!</li>
+                <li>Ultimate Soldier</li>
+                <li>UniteUp!</li>
+                <li>Unlock 99 Heroines in End Times</li>
+                <li>Urusei Yatsura (2022)</li>
+                <li>Utawarerumono: Futari no Hakuoro (Dub)</li>
+                <li>Uzaki-chan wa Asobitai! Double (Dub)</li>
+                <li>Vanguard Dragon God</li>
+                <li>Vinland Saga Season 2</li>
+                <li>Wan Jie Du Zun 2nd Season</li>
+                <li>Wan Jie Xian Zong 5th Season</li>
+                <li>Wan Jie Zhizun</li>
+                <li>Wan Sheng Jie (Japanese Dub)</li>
+                <li>Wan Yu Zhi Wang</li>
+                <li>Wangu Jian Shen</li>
+                <li>Wangu Jian Shen (2022)</li>
+                <li>Wangu Shenhua</li>
+                <li>Wanmei Shijie</li>
+                <li>Wansa-kun</li>
+                <li>Wei Jiang (2022)</li>
+                <li>Wo De Yi Jie Zhi Lu</li>
+                <li>Wo Jia Da Shixiong Shi Ge Fanpai</li>
+                <li>Wo Jia Da Shixiong You Dian Kaopu</li>
+                <li>Wo Kao Chongzhi Dang Wudi</li>
+                <li>Wo Zai Xianjie Zheng Jifen</li>
+                <li>Wo Zhen de Meiyong Mie?</li>
+                <li>Wo! Tianming Da Fanpai</li>
+                <li>WOWO (2022)</li>
+                <li>Wu Dong Qian Kun 3rd Season</li>
+                <li>Wu Geng Ji 4th Season Part 2</li>
+                <li>Wu Shang Shen Di 2nd Season</li>
+                <li>Wu Shen Zhu Zai</li>
+                <li>Wu Ying Sanqian Dao</li>
+                <li>Wuxian Shaonu 48</li>
+                <li>Wuxian Shijie</li>
+                <li>Xi Xing Ji 4th Season</li>
+                <li>Xian Di Gui Lai</li>
+                <li>Xian Di Gui Lai 2th Season</li>
+                <li>Xian Mu</li>
+                <li>Xian Wang de Richang Shenghuo (Dub)</li>
+                <li>Xian Wang de Richang Shenghuo 2 (Dub)</li>
+                <li>Xian Yu Ge</li>
+                <li>Xianwu Dizun</li>
+                <li>Xiao Mo Tou Baolu La!</li>
+                <li>Xing Wu Shen Jue 2</li>
+                <li>Xing Yu Siwan Nian</li>
+                <li>Xing Yuan Zhi Zhu</li>
+                <li>Xingchen Bian 5th Season</li>
+                <li>Xingji Yi You</li>
+                <li>Xiong Bing Lian 3: Leiting Wan Jun</li>
+                <li>Xue Ying Ling Zhu 3rd Season</li>
+                <li>Xue Yu Xin</li>
+                <li>Xun Jian</li>
+                <li>Yama no Susume: Next Summit</li>
+                <li>Yangguang Kafei Ting Zhi Xin You Ji</li>
+                <li>Yao Shen Ji 7th Season</li>
+                <li>Yi Jian Duzun</li>
+                <li>Yi Nian Yong Heng: Chuan Cheng Pian</li>
+                <li>Yi Ren Zhi Xia 4th Season</li>
+                <li>Yi Shijie Zhongyao Pu 2</li>
+                <li>Yinhe Zhi Xin</li>
+                <li>Yojouhan Time Machine Blues</li>
+                <li>Yong Sheng</li>
+                <li>Youkai Watch Jam: Youkai Gakuen Y - N to no Souguu</li>
+                <li>Youkaiden Nekome Kozou</li>
+                <li>Yowai 5000-nen no Soushoku Dragon, Iwarenaki Jaryuu Nintei</li>
+                <li>Yowai 5000-nen no Soushoku Dragon, Iwarenaki Jaryuu Nintei (Japanese Dub)</li>
+                <li>Yowamushi Pedal: Limit Break</li>
+                <li>Yu☆Gi☆Oh!: Go Rush!!</li>
+                <li>Yu☆Gi☆Oh!: Sevens (Dub)</li>
+                <li>Yuan Long 3rd Season</li>
+                <li>Yuan Shen Haojie</li>
+                <li>Zhanguo Qiannian (2022)</li>
+                <li>Zhen Wu Dianfeng</li>
+                <li>Zhihao Beipan Diqiule</li>
+                <li>Zhongguo Qi Tan</li>
+                <li>Zhu Tian Ji</li>
+                <li>Zhu Xian</li>
+                <li>Zi Chuan</li>
+                <li>Zoids Wild Zero</li>
+                <li>Zuihou de Zhaohuan Shi</li>
+                <li>Zuihou de Zhaohuan Shi (Japanese Dub)</li>
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="genres-container">
+            <div class="main-nav-right">
+              <div class="main-text-right">
+                <div class="main-text-right"><span class="ongoing">GENRES</span></div>
+              </div>
+            </div>
+            <div class="genres">
+              <ul>
+                <li>Action</li>
+                <li>Adventure</li>
+                <li>Avant Garde</li>
+                <li>Cars</li>
+                <li>Childcare</li>
+                <li>Comic</li>
+                <li>Crossdressing</li>
+                <li>Dementia</li>
+                <li>Detective</li>
+                <li>Dub</li>
+                <li>Erotica</li>
+                <li>Fantasy</li>
+                <li>Game</li>
+                <li>Gore</li>
+                <li>Harem</li>
+                <li>High Stakes Game</li>
+                <li>Horror</li>
+                <li>Iyashikei</li>
+                <li>Kids</li>
+                <li>Magical Sex Shift</li>
+                <li>Martial Arts</li>
+                <li>Medical</li>
+                <li>Music</li>
+                <li>Mythology</li>
+                <li>Parody</li>
+                <li>Pets</li>
+                <li>Psychological</li>
+                <li>Romance</li>
+                <li>Samurai</li>
+                <li>Sci-Fi</li>
+                <li>Shoujo</li>
+                <li>Shounen</li>
+                <li>Space</li>
+                <li>Strategy Game</li>
+                <li>Supernatural</li>
+                <li>Team Sports</li>
+                <li>Time Travel</li>
+                <li>Work Life</li>
+                <li>Yaoi</li>
+                <li>Adult Cast</li>
+                <li>Anthropomorphic</li>
+                <li>Boys Love</li>
+                <li>CGDCT</li>
+                <li>Comedy</li>
+                <li>Crime</li>
+                <li>Delinquents</li>
+                <li>Demons</li>
+                <li>Drama</li>
+                <li>Ecchi</li>
+                <li>Family</li>
+                <li>Gag Humor</li>
+                <li>Gender Bender</li>
+                <li>Gourmet</li>
+                <li>Hentai</li>
+                <li>Historical</li>
+                <li>Isekai</li>
+                <li>Josei</li>
+                <li>Magic</li>
+                <li>Mahou Shoujo</li>
+                <li>Mecha</li>
+                <li>Military</li>
+                <li>Mystery</li>
+                <li>Organized Crime</li>
+                <li>Performing Arts</li>
+                <li>Police</li>
+                <li>Reincarnation</li>
+                <li>Romantic Subtext</li>
+                <li>School</li>
+                <li>Seinen</li>
+                <li>Shoujo Ai</li>
+                <li>Slice of Life</li>
+                <li>Sports</li>
+                <li>Super Power</li>
+                <li>Suspense</li>
+                <li>Thriller</li>
+                <li>Vampire</li>
+                <li>Workplace</li>
+                <li>Yuri</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="season-container">
+            <div class="main-nav-right">
+              <div class="main-text-right"><span class="ongoing">SEASON</span></div>
+            </div>
+            <div class="season-content">
+              <ul>
+                <li>Anime 2023:<span class="season"> Winter</span></li>
+                <li>Anime 2022:<span class="season"> Winter</span><span class="span">|</span><span
+                    class="season">Spring</span><span class="span">|</span><span class="season">Summer</span><span
+                    class="span">|</span><span class="season">Fall</span></li>
+                <li>Anime 2021:<span class="season"> Winter</span><span class="span">|</span><span
+                    class="season">Spring</span><span class="span">|</span><span class="season">Summer</span><span
+                    class="span">|</span><span class="season">Fall</span></li>
+                <li>Anime 2020:<span class="season"> Winter</span><span class="span">|</span><span
+                    class="season">Spring</span><span class="span">|</span><span class="season">Summer</span><span
+                    class="span">|</span><span class="season">Fall</span></li>
+                <li>Anime 2019:<span class="season"> Winter</span><span class="span">|</span><span
+                    class="season">Spring</span><span class="span">|</span><span class="season">Summer</span><span
+                    class="span">|</span><span class="season">Fall</span></li>
+                <li>Anime 2018:<span class="season"> Winter</span><span class="span">|</span><span
+                    class="season">Spring</span><span class="span">|</span><span class="season">Summer</span><span
+                    class="span">|</span><span class="season">Fall</span></li>
+                <li>Anime 2017:<span class="season"> Winter</span><span class="span">|</span><span
+                    class="season">Spring</span><span class="span">|</span><span class="season">Summer</span><span
+                    class="span">|</span><span class="season">Fall</span></li>
+                <li>Anime 2016:<span class="season"> Winter</span><span class="span">|</span><span
+                    class="season">Spring</span><span class="span">|</span><span class="season">Summer</span><span
+                    class="span">|</span><span class="season">Fall</span></li>
+                <li>Anime 2015:<span class="season"> Winter</span><span class="span">|</span><span
+                    class="season">Spring</span><span class="span">|</span><span class="season">Summer</span><span
+                    class="span">|</span><span class="season">Fall</span></li>
+                <li>Anime 2014:<span class="season"> Winter</span><span class="span">|</span><span
+                    class="season">Spring</span><span class="span">|</span><span class="season">Summer</span><span
+                    class="span">|</span><span class="season">Fall</span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        
       </div>
-      
     </div>
-    
-    <section class="nav">
-      <div class="logo"><img src="images/logo.png"></div>
-      <ul class="nav-bar">
-        <li class="nav-home">HOME</li>
-        <li class="nav-text">ANIME LIST</li>
-        <li class="nav-text">NEW SEASON</li>
-        <li class="nav-text">MOVIES</li>
-        <li class="nav-text">POPULAR</li>
-      </ul>
-      <div class="search"><input class="search-bar" type="text" placeholder="search">
-      <button class="search-btn">
-        <img src="images/search-icon.png">
-      </button></div>
-    </section>
-
-    <section class="left">
-      <div class="main">
-        <div class="main-top">
-          <div class="main-nav">
-           <div class="main-text">
-            <span id="recent">RECENT RELEASE</span> 
-            <span id="span">|</span> <span id="content-nav">DUB</span> <span id="span">|</span> <span id="content-nav">CHINESE</span></div>
-           <div> 
-            <ul class="page">
-            <li id="page-one">1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-           </ul></div>
-          </div>
-        </div>
-        <div class="main-content">
-          <div class="items">
-            <div class="item-content">
-              <div class="img-content">
-                <img class="image" src="images/item1.png">
-                <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
-              </div>
-              <div class="content-title">Shadowverse Flame</div>
-              <div class="content-episode">Episode 40</div>
-            </div>
-            <div id="item-content">
-              <div class="img-content">
-                <img class="image" src="images/item2.png">
-                <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
-              </div>
-              <div class="content-title">Cardfight!! Vanguard: Will+Dress Season 2</div>
-              <div class="content-episode">Episode 1</div>
-            </div>
-            <div id="item-content">
-              <div class="img-content">
-                <img class="image" src="images/item3.png">
-                <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
-              </div>
-              <div class="content-title">Tsundere Akuyaku Reijou Liselotte to Jikkyou no</div>
-              <div class="content-episode">Episode 2</div>
-            </div>
-            <div id="item-content">
-              <div class="img-content">
-                <img class="image" src="images/item4.png">
-                <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
-              </div>
-              <div class="content-title">Buddy Daddies</div>
-              <div class="content-episode">Episode 2</div>
-            </div>
-            <div id="item-content">
-              <div class="img-content">
-                <img class="image" src="images/item5.png">
-                <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
-              </div>
-              <div class="content-title">Ars no Kyojuu</div>
-              <div class="content-episode">Episode 2</div>
-            </div>
-            <div id="item-content">
-              <div class="img-content">
-                <img class="image" src="images/item6.png">
-                <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
-              </div>
-              <div class="content-title">Shin Shinka no Mi: Shiranai Uchi ni Kachigumi Jinsei</div>
-              <div class="content-episode">Episode 1</div>
-            </div>
-            <div id="item-content">
-              <div class="img-content">
-                <img class="image" src="images/item7.png">
-                <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
-              </div>
-              <div class="content-title">Lupin Zero</div>
-              <div class="content-episode">Episode 6</div>
-            </div>
-            <div id="item-content">
-              <div class="img-content">
-                <img class="image" src="images/item8.png">
-                <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
-              </div>
-              <div class="content-title">The Legend of Heroes: Sen no Kiseki - Northern War</div>
-              <div class="content-episode">Episode 2</div>
-            </div>
-            <div id="item-content">
-              <div class="img-content">
-                <img class="image" src="images/item9.png">
-                <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
-              </div>
-              <div class="content-title">Nijiyon Animation</div>
-              <div class="content-episode">Episode 2</div>
-            </div>
-            <div id="item-content">
-              <div class="img-content">
-                <img class="image" src="images/item10.png">
-                <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
-              </div>
-              <div class="content-title">Li Shi Zhentan Shiwusuo: A Day in Lungmen</div>
-              <div class="content-episode">Episode 4</div>
-            </div>
-            <div id="item-content">
-              <div class="img-content">
-                <img class="image" src="images/item11.png">
-                <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
-              </div>
-              <div class="content-title">Isekai Nonbiri Nouka</div>
-              <div class="content-episode">Episode 2</div>
-            </div>
-            <div id="item-content">
-              <div class="img-content">
-                <img class="image" src="images/item12.png">
-                <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
-              </div>
-              <div class="content-title">Sugar Apple Fairy Tale</div>
-              <div class="content-episode">Episode 2</div>
-            </div>
-            <div id="item-content">
-              <div class="img-content">
-                <img class="image" src="images/item13.png">
-                <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
-              </div>
-              <div class="content-title">Dr. Slump: Arale-chan</div>
-              <div class="content-episode">Episode 128</div>
-            </div>
-            <div id="item-content">
-              <div class="img-content">
-                <img class="image" src="images/item14.png">
-                <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
-              </div>
-              <div class="content-title">Sekai no Owari ni Shiba Inu to</div>
-              <div class="content-episode">Episode 65</div>
-            </div>
-            <div id="item-content">
-              <div class="img-content">
-                <img class="image" src="images/item15.png">
-                <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
-              </div>
-              <div class="content-title">Ninjala</div>
-              <div class="content-episode">Episode 52</div>
-            </div>
-            <div id="item-content">
-              <div class="img-content">
-                <img class="image" src="images/item16.png">
-                <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
-              </div>
-              <div class="content-title">Inu ni Nattara Suki na Hito ni Hirowareta. (Uncensored)</div>
-              <div class="content-episode">Episode 2</div>
-            </div>
-            <div id="item-content">
-              <div class="img-content">
-                <img class="image" src="images/item17.png">
-                <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
-              </div>
-              <div class="content-title">Initial D Battle Stage 2</div>
-              <div class="content-episode">Episode 1</div>
-            </div>
-            <div id="item-content">
-              <div class="img-content">
-                <img class="image" src="images/item18.png">
-                <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
-              </div>
-              <div class="content-title">Urusei Yatsura (2022)</div>
-              <div class="content-episode">Episode 13</div>
-            </div>
-            <div id="item-content">
-              <div class="img-content">
-                <img class="image" src="images/item19.png">
-                <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
-              </div>
-              <div class="content-title">Hyouken no Majutsushi ga Sekai wo Suberu</div>
-              <div class="content-episode">Episode 2</div>
-            </div>
-            <div id="item-content">
-              <div class="img-content">
-                <img class="image" src="images/item20.png">
-                <div class="sub"><img id="sub-logo" src="images/sub.svg"></div>
-              </div>
-              <div class="content-title">Oniichan wa Oshimai! (Uncensored)</div>
-              <div class="content-episode">Episode 2</div>
-            </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   </div>
-  </div>
-  </body>
+</body>
+
 </html>

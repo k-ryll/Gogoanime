@@ -1,0 +1,149 @@
+.right{
+  width: 28.5%;
+  margin-top: .938rem;
+}
+.headnav-right{
+  height: .5px;
+  border: solid .8px #a1a1a1;
+  margin-bottom: 1.625rem;
+  
+}
+.main-nav-right{
+  background-color: #FFC119;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 0.75rem;
+  color: #252525;  
+  padding: 0.688rem 0 0.688rem 4.688rem;
+}
+.main-text-right span{
+  margin-right: .438rem;
+}
+.main-text-right{
+  margin-top: .25rem;
+}
+.main-right{
+  border: solid 1px #a1a1a1;
+  font-size: .75rem;
+  font-family: sans-serif;
+  margin-bottom: 1.75rem;
+}
+.movies-show-container{
+  position: relative;
+  min-height: 1.875rem;
+  padding: .875rem .875rem;
+}
+.movies-show-content{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+.number{
+  padding-right: .625rem;
+  margin-top: 2px;
+  color: #FFC119;
+  cursor: pointer;
+}
+.title{
+  color: #FFC119;
+}
+.title:hover{
+  color: white;
+  transition: all .1s linear;
+}
+.title, .episode{
+  margin: 2px 0;
+  padding-bottom: 2px;
+  cursor: pointer;
+}
+.ongoing{
+  padding: 0;
+  font-size: .813rem;
+  margin: 0;
+}
+.series-container{
+  min-height: 41.5rem;
+  border: #a1a1a1 solid 1px;
+  margin-bottom: 1.75rem;
+  margin-right: 1em;
+  width: 100%;
+}
+.series ul{
+  overflow-y: scroll;
+  max-height: 41.5rem;
+  position: relative;
+  margin-right: 5px;
+  overflow-x: hidden;
+  padding-left: .875rem;
+  margin-top: .875rem;
+  margin-bottom: .875rem;
+}
+.series ul li{
+    color: #ffc119;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    font-size: 12px;
+    padding-top: .125rem;
+    padding-bottom: .125rem;
+}
+.series ul li:hover{
+  color: white;
+  transition: all .1s linear;
+  cursor: pointer;
+}
+.series-container ::-webkit-scrollbar {
+  width: .35em;
+}
+.series-container ::-webkit-scrollbar-track {
+  background:transparent;
+}
+.series-container ::-webkit-scrollbar-thumb {
+  background-color: #363636;
+  border-radius: 1em;
+  margin-right: 1em;
+}
+.genres-container{
+  border: solid 1px #a1a1a1;
+  min-height: 57.688rem;
+  margin-bottom: 1.75rem;
+}
+.genres ul{
+  columns: 2;
+  -webkit-column: 2;
+  -moz-column: 2;
+  column-rule: solid .1px rgb(91, 91, 91);
+  margin: .5rem 0;
+  padding-left: .4rem;
+}
+.genres ul li{
+    padding: 4px 8px;
+    font-size: 12px;
+    color: #ffc119;
+}
+.genres ul li:hover{
+  color: white;
+  transition: all .3s linear;
+  cursor: pointer;
+}
+.season-container{
+  border: solid 1px #a1a1a1;
+  font-size: 12px;
+}
+.season-content{
+  padding: .625rem 0;
+  padding-left: .875rem;
+}
+.season-content ul li{
+  padding: 2px 0;
+  color: #898989;;
+}
+.span, .season{
+  color: #FFC119;
+  margin: 0 1px;
+}
+.season:hover{
+  cursor: pointer;
+  color: white;
+  transition: all .3s linear;
+}

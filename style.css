@@ -14,24 +14,26 @@ ul{
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 .cover{
   background-color: #1b1b1b;
-  width: 1048px;
-  height: 3081px;
+  max-width: 1048px;
+  min-height: 3081px;
   padding-left: 20px;
   padding-right: 20px;
+  position: relative;
 }
 .login{
   color: #A1A1A1;
   font-size: 11px;
   font-family:  Tahoma, Geneva, sans-serif;
   display: flex;
-  padding-top: 10px;
+  padding-top: 5px;
   justify-content: right;
 }
 #login-icon img{
-  width: 23px;
+  max-width: 23px;
   height: 21px;
   margin-right: 7px;
 }
@@ -59,10 +61,12 @@ ul{
   cursor: pointer;
 }
 .nav{
-  display: grid;
-  grid-template-columns: 220px 1fr 300px;
+  display: flex;
+  flex-direction: row;
   padding-top: 12px;
   padding-bottom: 35px;
+  position: relative;
+  justify-content: space-between;
 }
 .logo{
   padding: 0 40px;
@@ -95,9 +99,10 @@ ul{
   display: flex;
   justify-content: right;
   padding-top: 18px;
+  width: 300px;
 }
 .search-bar{
-  width: 100%;
+  min-width: 100%;
   color: #ffc119;
   background-color: transparent;
   border: solid 1px #A1A1A1;
@@ -122,4 +127,18 @@ ul{
   height: 20px;
   padding-top: 5px;
   padding-right: 7px;
+}
+.content-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 1087px) {
+  .right{
+    display: none;
+  }
+  .cover{
+    padding: 0;
+    margin: 0;
+  }
 }
